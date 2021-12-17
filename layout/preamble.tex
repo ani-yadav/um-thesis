@@ -1,7 +1,7 @@
 \usepackage{amsmath, amsthm, amssymb}
 \usepackage{booktabs}
 \usepackage{setspace}
-\usepackage[giveninits=true, maxbibnames=99, sortcites=true, backend=biber]{biblatex}
+\usepackage[giveninits=true, maxbibnames=99, maxcitenames=3, style=authoryear, citestyle=authoryear, natbib=true, sortcites=true, backend=biber]{biblatex}
 \usepackage{xpatch}
 
 \usepackage{lipsum}
@@ -171,7 +171,7 @@
 
 % Nomenclature
 \usepackage[toc,acronym,nonumberlist,subentrycounter]{glossaries}
-\makeglossaries
+%\makeglossaries
 \loadglsentries[main]{layout/acronyms.tex}
 % \setkomafont{descriptionlabel}{\normalfont}
 \glstocfalse
